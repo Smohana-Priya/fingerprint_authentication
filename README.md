@@ -1,4 +1,4 @@
-# faceid_and_fingerprint_authentication
+# fingerprint_authentication
 
 A new Flutter project.
 
