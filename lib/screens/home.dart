@@ -7,7 +7,11 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text("successfully authenticated"),
+        child: Text(
+          "Great Successfully Authenticated!!",
+          style: TextStyle(
+              fontWeight: FontWeight.bold, fontSize: 20, color: Colors.green),
+        ),
       ),
     );
   }

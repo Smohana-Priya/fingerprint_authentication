@@ -5,5 +5,5 @@ import 'package:flutter/material.dart';
 import 'screens/login.dart';
 
 void main() {
-  runApp(const Login());
+  runApp(const MaterialApp(debugShowCheckedModeBanner: false, home: Login()));
 }
